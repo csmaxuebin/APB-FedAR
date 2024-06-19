@@ -179,8 +179,6 @@ MNIST
 
 - Training is conducted over 100 rounds with 10, 20, and 30 clients participating. Each client executes 4 epochs per round.
 - The local learning rate is set at 0.01, and the batch size is 128.
-- For CIFAR-10, clients' local data is limited to 4 classes to simulate heterogeneous settings. For CIFAR-100, clients' data is limited to 40 classes.
-- The FedAR method uses a fairness factor \( q \) set to 0.1 and an attenuation factor \( \rho \) set to 0.5.
 
 **Models:**
 
